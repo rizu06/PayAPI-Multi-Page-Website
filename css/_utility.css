@@ -1,0 +1,109 @@
+:root {
+    --ff-serif: "DM Serif Display", serif;
+    --ff-sans: "Public Sans", sans-serif;
+  
+    /* small screen font-sizes */
+    --fs-200: 0.9375rem; /* 15px */
+    --fs-300: 1.125rem; /* 18px */
+    --fs-400: 1.5rem; /* 24px */
+    --fs-500: 2rem; /* 32px */
+    --fs-600: 2.25rem; /* 36px */
+  
+    --fw-400: 400;
+    --fw-600: 600;
+  
+    --clr-white-100: #fbfcfe;
+    --clr-white-200: #edf3f8;
+  
+    --clr-blue-100: #6c8294;
+    --clr-blue-200: #36536b;
+    --clr-blue-300: #1b262f;
+  
+    --clr-pink-100: #da6d97;
+    --clr-pink-200: #ba4270;
+  
+    --br: 1rem;
+  }
+  
+  a,
+  p,
+  h3 {
+    font-family: var(--ff-sans);
+    color: var(--clr-blue-100);
+  }
+  
+  h1 {
+    font-family: var(--ff-serif);
+    color: var(--clr-blue-200);
+  }
+  
+  .btn {
+    padding: 0.9rem 1rem;
+    background-color: var(--clr-pink-200);
+    display: inline-block;
+    border-radius: 2rem;
+    color: var(--clr-white-100);
+    font-family: var(--fs-200);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-family: var(--ff-sans);
+    box-shadow: 2px 8px 56px 1px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 2px 8px 56px 1px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 2px 8px 56px 1px rgba(0, 0, 0, 0.13);
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: var(--clr-pink-100);
+  }
+  
+  .display-flex {
+    display: flex;
+  }
+  
+  .flex-center {
+    align-items: center;
+  }
+  
+  .flex-between {
+    justify-content: space-between;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .direction-col {
+    flex-direction: column;
+  }
+  
+  .input-box {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .input-box input {
+    width: 70%;
+    padding: 0.9rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: var(--fs-200);
+    box-shadow: 2px 8px 56px 1px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 2px 8px 56px 1px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 2px 8px 56px 1px rgba(0, 0, 0, 0.13);
+    outline: none;
+  }
+  .input-box a {
+    position: relative;
+    left: -170px;
+  }
+  ul {
+    list-style: none;
+  }
+  ul li a {
+    text-decoration: none;
+  }
